@@ -1,0 +1,100 @@
+/* .App {
+  align-items: center;
+} */
+.header-color {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content {
+  min-height: 100%;
+}
+
+.landing-grid {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.banner-text {
+  /* background-color: rgb(9, 9, 9); */
+  /* opacity: .8; */
+  width: 50%;
+  margin: auto;
+  height: 150px;
+}
+
+.img-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-img {
+  height: 150px;
+  padding-top: 10em;
+  border-radius: 50%;
+
+}
+
+.banner-text h3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  /* align-items: center; */
+  font-size: 45px;
+}
+.banner-text p {
+  display: flex;
+  color: white;
+}
+
+.footer-container {
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ E*/
+  height: 25px;
+  display: flex;
+}
+
+.footer-list {
+  display: flex;
+  position:relative;
+  /* align-items: center; */
+  justify-content: space-between;
+  left: 400px;
+  top: 10px;
+}
+.footer-text {
+  display: flex;
+  position: relative;
+  left: 350px;
+  bottom: 15px;
+  color: #fff;
+}

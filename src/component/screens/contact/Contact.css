@@ -1,0 +1,44 @@
+.contact-container {
+  display: flex;
+  position: relative;
+  z-index: -1;
+  margin-top: 5em;
+  margin-left: 15em;
+  width: 450px;
+  height: 300px;
+  background-color: teal;
+  align-items: center;
+  justify-content: center;
+  
+}
+.name-input {
+  margin-top: 20px;
+  margin-left: 430px;
+}
+
+.email-input {
+  margin-top: 25px;
+  margin-left: 430px;
+}
+
+.description-input {
+  margin-top: 30px;
+  margin-left: 400px;
+  resize: none;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: 200px;
+  margin-top: 190px;
+  margin-left: -230px;
+  padding: 5px;
+  background-color: #141e30;
+  color: white;
+  border-radius: 5%;
+}
