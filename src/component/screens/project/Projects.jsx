@@ -39,7 +39,8 @@ export default class Projects extends Component {
               the MERN stack and includes authentication
             </CardText>
             <CardActions border>
-              <Button colored>Valhala</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live</Button>
             </CardActions>
           </Card>
 
@@ -59,7 +60,8 @@ export default class Projects extends Component {
               the MERN stack and includes authentication
             </CardText>
             <CardActions border>
-              <Button colored>The-Slapp</Button>
+              <Button colored>Github</Button>
+              <Button colored>Live</Button>
             </CardActions>
           </Card>
         </div>
@@ -75,14 +77,15 @@ export default class Projects extends Component {
                 "url(https://images.unsplash.com/photo-1603297638322-c7a08d52966c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8aHRtbCUyMGNzcyUyMGphdmFzY3JpcHR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) center / cover",
             }}
           >
-            Vanilla Javascript projects
+            Vanilla javascript projects
           </CardTitle>
           <CardText>
             Brew-Haus is a brewery locator built with vanilla javascript and
             consumes the Mapbox and Brewery APIs.
           </CardText>
           <CardActions border>
-            <Button colored>Brew-Haus</Button>
+            <Button colored>Github</Button>
+            <Button colored>Live</Button>
           </CardActions>
         </Card>
       );
@@ -97,14 +100,15 @@ export default class Projects extends Component {
                 "url(https://images.unsplash.com/photo-1603297638322-c7a08d52966c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8aHRtbCUyMGNzcyUyMGphdmFzY3JpcHR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) center / cover",
             }}
           >
-            React on Rails Projects
+            React on rails projects
           </CardTitle>
           <CardText>
             Tortuga is a web app built on the React on Rails and includes
             authentication.
           </CardText>
           <CardActions border>
-            <Button colored>Tortuga</Button>
+            <Button colored>Github</Button>
+            <Button colored>Live</Button>
           </CardActions>
         </Card>
       );
@@ -119,7 +123,7 @@ export default class Projects extends Component {
                 "url(https://images.unsplash.com/photo-1603297638322-c7a08d52966c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8aHRtbCUyMGNzcyUyMGphdmFzY3JpcHR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) center / cover",
             }}
           >
-            React on Airtable
+            React on airtable projects
           </CardTitle>
           <CardText>
             Classified is an inventory management system with React frontend and
@@ -127,7 +131,8 @@ export default class Projects extends Component {
             available on the lot and which ones are rented.
           </CardText>
           <CardActions border>
-            <Button colored>Classified</Button>
+            <Button colored>Github</Button>
+            <Button colored>Live</Button>
           </CardActions>
         </Card>
       );

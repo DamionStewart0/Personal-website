@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {  Redirect } from "react-router-dom";
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import './Contact.css';
 
 
@@ -18,47 +18,18 @@ export default function Contact(props) {
 
     return (
         <div className="contact-container">
-            <form 
-             onSubmit={handleChange}
-             >
+            <div className='contact-text'>
+                <h3>Damion Stewart</h3>
+                <h4>West Orange, NJ</h4>
+                <h5>Resume available by request</h5>
+                <div className='fa-icons'>
+                    <FaGithub />
+                    <FaLinkedin />
+                    <FaEnvelope />
 
-            <div className="name-input">
-            <input 
-            type="text"
-            placeholder="name"
-            name="username"
-            value={username}
-            handleChange={() => {}}
-            autoFocus
-            />
-            </div>
-            <div className="email-input">
-            <input 
-            type="text"
-            placeholder="email"
-            name="email"
-            value={email}
-            handleChange={() => {}}
-            />
-            </div>
+                </div>
 
-            <div className="description-input">
-            <textarea
-            type="text"
-            rows={10}
-            cols={30}
-            placeholder="Description"
-            name="description"
-            value={description}
-            handleChange={() => {}}
-            />
             </div>
-            </form>
-            <div className="btn-container">
-                <button className="btn">Submit</button>
-            </div>
-             
-
 
         </div>
     )
