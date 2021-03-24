@@ -55,7 +55,7 @@ function App() {
             <FooterSection>
               <FooterLinkList>
                 <div className='footer-text'>
-                <h4>Created by: Damion Stewart ||</h4>
+                <h4>Created by: Damion Stewart |</h4>
                 </div>
                 <div className='footer-list'>
                 <Link to="/">Github</Link>
